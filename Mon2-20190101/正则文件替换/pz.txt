@@ -1,0 +1,2 @@
+C:\Users\lenovo\Desktop\Test\AIF.txt,ver=V1.0
+C:\Users\lenovo\Desktop\Test\yt\lm.cfg,Minver =
