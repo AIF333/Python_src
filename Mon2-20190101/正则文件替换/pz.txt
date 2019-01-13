@@ -1,2 +1,11 @@
-C:\Users\lenovo\Desktop\Test\AIF.txt,ver=V1.0
-C:\Users\lenovo\Desktop\Test\yt\lm.cfg,Minver =
+# 文件列表的自动加版本号的读取，共四个参数，需以英文逗号做分隔符
+# 参数1：文件名,(必填)
+# 参数2：正则匹配格式(必填)
+# 参数3:自动加的位数(可不填，默认2),即 01->02
+# 加的值,(可不填，默认1)
+# eg: V1.0.1.T01 => V1.0.1.T02
+
+C:\Users\lenovo\Desktop\Test\AIF.txt,ver=
+C:\Users\lenovo\Desktop\Test\yt\lm.cfg,Minver =,2,2
+
+
