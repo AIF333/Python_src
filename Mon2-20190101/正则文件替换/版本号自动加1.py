@@ -1,6 +1,15 @@
 '''
 此脚本主要是实现版本号自动加1，对格式如 ver=10.20.3.T07 自动加1
 成 ver=10.20.3.T08
+
+
+对于某些特殊的文本含有特殊的格式，如果知道只有 utf-8 和 gbk 则可用try异常来搞两次；
+其他多的可以统一用 rb 二进制读取，然后
+    read时转utf-8 ，忽略错误 decode('utf-8,ignore)
+    因为decode的函数原型是decode([encoding], [errors='strict'])，可以用第二个参数控制错误处理的策略，默认的参数就是strict，代表遇到非法字符时抛出异常；
+如果设置为ignore，则会忽略非法字符；
+如果设置为replace，则会用?取代非法字符；
+如果设置为xmlcharrefreplace，则使用XML的字符引用
 '''
 import re
 import os

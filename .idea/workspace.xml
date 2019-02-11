@@ -3,8 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="92ce4d24-c448-4244-bb80-65c424e58ca7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mon2-20190101/socket/1.4并发访问/s_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/Mon2-20190101/socket/1.4并发访问/s_server.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mon2-20190101/socket/1.4并发访问/struct_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mon2-20190101/socket/1.4并发访问/s_client.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mon2-20190101/socket/1.4并发访问/s_client1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mon2-20190101/socket/1.4并发访问/s_client2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mon2-20190101/socket/1.4并发访问/s_server.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mon2-20190101/正则文件替换/版本号自动加1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Mon2-20190101/正则文件替换/版本号自动加1.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,9 +19,10 @@
     <SUITE FILE_PATH="coverage/Lsrc$class_supper2.coverage" NAME="class_supper2 Coverage Results" MODIFIED="1547037998932" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mon2-20190101" />
     <SUITE FILE_PATH="coverage/Lsrc$bibao.coverage" NAME="bibao Coverage Results" MODIFIED="1545313753777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day1-20181220" />
     <SUITE FILE_PATH="coverage/Lsrc$s_client2.coverage" NAME="s_client2 Coverage Results" MODIFIED="1547387793085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mon2-20190101/socket/1.4并发访问" />
+    <SUITE FILE_PATH="coverage/Lsrc$upd_client__1_.coverage" NAME="upd_client (1) Coverage Results" MODIFIED="1547894047472" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mon2-20190101/socket/UDP并发" />
     <SUITE FILE_PATH="coverage/Lsrc$class_test.coverage" NAME="class_test Coverage Results" MODIFIED="1547037652361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mon2-20190101" />
     <SUITE FILE_PATH="coverage/Lsrc$re_test__1_.coverage" NAME="re_test (1) Coverage Results" MODIFIED="1547340957400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mon2-20190101/正则文件替换" />
-    <SUITE FILE_PATH="coverage/Lsrc$.coverage" NAME="静态方法类方法 Coverage Results" MODIFIED="1547040153388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mon2-20190101" />
+    <SUITE FILE_PATH="coverage/Lsrc$.coverage" NAME="队列 Coverage Results" MODIFIED="1548081762246" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mon2-20190101/多进程" />
     <SUITE FILE_PATH="coverage/Lsrc$time.coverage" NAME="time Coverage Results" MODIFIED="1545923257960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mon1-20181220" />
     <SUITE FILE_PATH="coverage/Lsrc$yield.coverage" NAME="yield复杂使用查找文件 Coverage Results" MODIFIED="1545659996422" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mon1-20181220" />
     <SUITE FILE_PATH="coverage/Lsrc$s_client__1_.coverage" NAME="s_client (1) Coverage Results" MODIFIED="1547048025419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mon2-20190101/socket/1.3解决黏包（最终版本定制报头）" />
@@ -26,19 +30,23 @@
     <SUITE FILE_PATH="coverage/Lsrc$change_file.coverage" NAME="change_file Coverage Results" MODIFIED="1547299475025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mon2-20190101" />
     <SUITE FILE_PATH="coverage/Lsrc$setitem.coverage" NAME="setitem Coverage Results" MODIFIED="1546784371942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mon2-20190101" />
     <SUITE FILE_PATH="coverage/Lsrc$re_test.coverage" NAME="re_test Coverage Results" MODIFIED="1547305087142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mon2-20190101" />
+    <SUITE FILE_PATH="coverage/Lsrc$test.coverage" NAME="test Coverage Results" MODIFIED="1548163602723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mon2-20190101/多进程" />
     <SUITE FILE_PATH="coverage/Lsrc$s_client3.coverage" NAME="s_client3 Coverage Results" MODIFIED="1546872649711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mon1-20181220/socket" />
     <SUITE FILE_PATH="coverage/Lsrc$1.coverage" NAME="版本号自动加1 Coverage Results" MODIFIED="1547346242482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mon2-20190101/正则文件替换" />
     <SUITE FILE_PATH="coverage/Lsrc$s_server__1_.coverage" NAME="s_server (1) Coverage Results" MODIFIED="1547048019101" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mon2-20190101/socket/1.3解决黏包（最终版本定制报头）" />
     <SUITE FILE_PATH="coverage/Lsrc$json_pickle.coverage" NAME="json_pickle Coverage Results" MODIFIED="1546344604733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mon2-20190101" />
+    <SUITE FILE_PATH="coverage/Lsrc$upd_client.coverage" NAME="upd_client Coverage Results" MODIFIED="1547820004499" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mon2-20190101/socket/UDP简单通信" />
     <SUITE FILE_PATH="coverage/Lsrc$sys.coverage" NAME="sys动态输出 Coverage Results" MODIFIED="1546009560820" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mon1-20181220/socket" />
-    <SUITE FILE_PATH="coverage/Lsrc$s_client.coverage" NAME="s_client Coverage Results" MODIFIED="1547387774215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mon2-20190101/socket/1.4并发访问" />
+    <SUITE FILE_PATH="coverage/Lsrc$s_client.coverage" NAME="s_client Coverage Results" MODIFIED="1547992082211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mon2-20190101/socket/1.41并发访问（自定义多进程）" />
     <SUITE FILE_PATH="coverage/Lsrc$s_client1.coverage" NAME="s_client1 Coverage Results" MODIFIED="1547387781072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mon2-20190101/socket/1.4并发访问" />
     <SUITE FILE_PATH="coverage/Lsrc$raise.coverage" NAME="raise Coverage Results" MODIFIED="1546785103443" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mon2-20190101" />
     <SUITE FILE_PATH="coverage/Lsrc$s_client4.coverage" NAME="s_client4 Coverage Results" MODIFIED="1546874356422" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mon1-20181220/socket" />
     <SUITE FILE_PATH="coverage/Lsrc$super.coverage" NAME="super Coverage Results" MODIFIED="1547037396061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mon2-20190101" />
     <SUITE FILE_PATH="coverage/Lsrc$fdd.coverage" NAME="fdd Coverage Results" MODIFIED="1545487603955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mon1-20181220" />
-    <SUITE FILE_PATH="coverage/Lsrc$s_server.coverage" NAME="s_server Coverage Results" MODIFIED="1547387766755" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mon2-20190101/socket/1.4并发访问" />
+    <SUITE FILE_PATH="coverage/Lsrc$udp_server__1_.coverage" NAME="udp_server (1) Coverage Results" MODIFIED="1547894042728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mon2-20190101/socket/UDP并发" />
+    <SUITE FILE_PATH="coverage/Lsrc$s_server.coverage" NAME="s_server Coverage Results" MODIFIED="1547992056451" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mon2-20190101/socket/1.41并发访问（自定义多进程）" />
     <SUITE FILE_PATH="coverage/Lsrc$change_file__1_.coverage" NAME="change_file (1) Coverage Results" MODIFIED="1547303495790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mon2-20190101/正则文件替换" />
+    <SUITE FILE_PATH="coverage/Lsrc$udp_server.coverage" NAME="udp_server Coverage Results" MODIFIED="1547820008143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mon2-20190101/socket/UDP简单通信" />
     <SUITE FILE_PATH="coverage/Lsrc$struct_test.coverage" NAME="struct_test Coverage Results" MODIFIED="1547041413635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mon2-20190101/socket/1.2解决黏包" />
   </component>
   <component name="CoverageViewManager">
@@ -48,43 +56,46 @@
     <session id="2111979479">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.51" value="1" />
           <entry key="project.open.time.57" value="1" />
           <entry key="project.open.time.58" value="1" />
+          <entry key="project.open.time.59" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.78" value="1" />
           <entry key="project.open.time.79" value="1" />
           <entry key="project.open.time.82" value="1" />
           <entry key="project.open.time.83" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="json" value="4" />
-          <entry key="py" value="67" />
+          <entry key="py" value="100" />
           <entry key="txt" value="1" />
+          <entry key="多进程" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JSON" value="4" />
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="67" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="Python" value="100" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="69" />
-          <entry key="py" value="14706" />
+          <entry key="py" value="18616" />
           <entry key="txt" value="287" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="356" />
-          <entry key="Python" value="14706" />
+          <entry key="Python" value="18616" />
         </counts>
       </usages-collector>
     </session>
@@ -92,45 +103,56 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Mon2-20190101/socket/1.4并发访问/s_server.py">
+        <entry file="file://$PROJECT_DIR$/Mon2-20190101/多进程/共享数据.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="36" column="12" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
+            <state relative-caret-position="259">
+              <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
               <folding>
-                <element signature="e#43#60#0" expanded="true" />
-                <marker date="1547387696186" expanded="true" signature="219:1887" ph="..." />
-                <marker date="1547387696186" expanded="true" signature="241:259" ph="..." />
+                <marker date="1548081248778" expanded="true" signature="99:108" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Mon2-20190101/socket/1.4并发访问/s_client.py">
+        <entry file="file://$PROJECT_DIR$/Mon2-20190101/多进程/队列.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="191">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Mon2-20190101/socket/1.4并发访问/s_client1.py">
+        <entry file="file://$PROJECT_DIR$/Mon2-20190101/多进程/test.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="148">
-              <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+              <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Mon2-20190101/socket/1.4并发访问/s_client2.py">
+        <entry file="file://$PROJECT_DIR$/Mon2-20190101/socket/1.41并发访问（自定义多进程）/s_server.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="8" column="11" lean-forward="true" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+            <state relative-caret-position="238">
+              <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+                <marker date="1547992056404" expanded="true" signature="237:385" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Mon2-20190101/socket/1.41并发访问（自定义多进程）/s_client.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="370">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -185,10 +207,22 @@
         <option value="$PROJECT_DIR$/Mon2-20190101/re_test.py" />
         <option value="$PROJECT_DIR$/Mon2-20190101/正则文件替换/change_file.py" />
         <option value="$PROJECT_DIR$/Mon2-20190101/正则文件替换/re_test.py" />
-        <option value="$PROJECT_DIR$/Mon2-20190101/正则文件替换/版本号自动加1.py" />
         <option value="$PROJECT_DIR$/Mon2-20190101/正则文件替换/pz.txt" />
         <option value="$PROJECT_DIR$/Mon2-20190101/socket/1.4并发访问/s_client.py" />
         <option value="$PROJECT_DIR$/Mon2-20190101/socket/1.4并发访问/s_server.py" />
+        <option value="$PROJECT_DIR$/Mon2-20190101/socket/UDP简单通信/udp_server.py" />
+        <option value="$PROJECT_DIR$/Mon2-20190101/socket/UDP简单通信/upd_client.py" />
+        <option value="$PROJECT_DIR$/Mon2-20190101/socket/UDP并发/upd_client.py" />
+        <option value="$PROJECT_DIR$/Mon2-20190101/socket/UDP并发/udp_server.py" />
+        <option value="$PROJECT_DIR$/Mon2-20190101/多进程/调用进程的方法二.py" />
+        <option value="$PROJECT_DIR$/Mon2-20190101/正则文件替换/版本号自动加1.py" />
+        <option value="$PROJECT_DIR$/Mon2-20190101/socket/1.41并发访问（自定义多进程）/s_client.py" />
+        <option value="$PROJECT_DIR$/Mon2-20190101/socket/1.41并发访问（自定义多进程）/s_server.py" />
+        <option value="$PROJECT_DIR$/Mon2-20190101/多进程/调用进程的方法一.py" />
+        <option value="$PROJECT_DIR$/Mon2-20190101/多进程/进程的其他方法.py" />
+        <option value="$PROJECT_DIR$/Mon2-20190101/多进程/共享数据.py" />
+        <option value="$PROJECT_DIR$/Mon2-20190101/多进程/队列.py" />
+        <option value="$PROJECT_DIR$/Mon2-20190101/多进程/test.py" />
       </list>
     </option>
   </component>
@@ -233,13 +267,6 @@
             </path>
             <path>
               <item name="Lsrc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Lsrc" type="462c0819:PsiDirectoryNode" />
-              <item name="Mon2-20190101" type="462c0819:PsiDirectoryNode" />
-              <item name="socket" type="462c0819:PsiDirectoryNode" />
-              <item name="1.4并发访问" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Lsrc" type="b2602c69:ProjectViewProjectNode" />
               <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
             </path>
             <path>
@@ -264,15 +291,15 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Lern\python\Lsrc\Mon2-20190101\socket\1.4并发访问" />
       <recent name="E:\Lern\python\Lsrc\Mon2-20190101\socket" />
+      <recent name="E:\Lern\python\Lsrc\Mon2-20190101\socket\UDP并发" />
+      <recent name="E:\Lern\python\Lsrc\Mon2-20190101\socket\1.4并发访问" />
       <recent name="E:\Lern\python\Lsrc\Mon2-20190101\socket\1.3解决黏包-定制报头（最终版）" />
       <recent name="E:\Lern\python\Lsrc\Mon1-20181220\socket" />
-      <recent name="E:\Lern\python\Lsrc\Mon1-20181220\socket\1.0简单通信" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Lern\python\Lsrc\Mon2-20190101\正则文件替换" />
@@ -294,8 +321,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.s_client2">
-    <configuration name="版本号自动加1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.test">
+    <configuration name="调用进程的方法一" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Lsrc" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -303,12 +330,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Mon2-20190101/正则文件替换" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Mon2-20190101/多进程" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Mon2-20190101/正则文件替换/版本号自动加1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Mon2-20190101/多进程/调用进程的方法一.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -317,7 +344,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="s_client" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="共享数据" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Lsrc" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -325,12 +352,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Mon2-20190101/socket/1.4并发访问" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Mon2-20190101/多进程" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Mon2-20190101/socket/1.4并发访问/s_client.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Mon2-20190101/多进程/共享数据.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -339,7 +366,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="s_client1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="进程的其他方法" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Lsrc" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -347,12 +374,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Mon2-20190101/socket/1.4并发访问" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Mon2-20190101/多进程" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Mon2-20190101/socket/1.4并发访问/s_client1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Mon2-20190101/多进程/进程的其他方法.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -361,7 +388,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="s_client2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="队列" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Lsrc" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -369,12 +396,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Mon2-20190101/socket/1.4并发访问" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Mon2-20190101/多进程" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Mon2-20190101/socket/1.4并发访问/s_client2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Mon2-20190101/多进程/队列.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -383,7 +410,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="s_server" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Lsrc" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -391,12 +418,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Mon2-20190101/socket/1.4并发访问" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Mon2-20190101/多进程" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Mon2-20190101/socket/1.4并发访问/s_server.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Mon2-20190101/多进程/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -429,19 +456,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.yield高级用查找文件" />
-      <item itemvalue="Python.版本号自动加1" />
-      <item itemvalue="Python.s_server" />
-      <item itemvalue="Python.s_client" />
-      <item itemvalue="Python.s_client1" />
-      <item itemvalue="Python.s_client2" />
+      <item itemvalue="Python.调用进程的方法一" />
+      <item itemvalue="Python.进程的其他方法" />
+      <item itemvalue="Python.共享数据" />
+      <item itemvalue="Python.队列" />
+      <item itemvalue="Python.test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.s_client2" />
-        <item itemvalue="Python.s_client1" />
-        <item itemvalue="Python.s_client" />
-        <item itemvalue="Python.s_server" />
-        <item itemvalue="Python.版本号自动加1" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.队列" />
+        <item itemvalue="Python.共享数据" />
+        <item itemvalue="Python.进程的其他方法" />
+        <item itemvalue="Python.调用进程的方法一" />
       </list>
     </recent_temporary>
   </component>
@@ -468,15 +495,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1618" height="869" extended-state="6" />
-    <editor active="true" />
+    <frame x="-9" y="-9" width="1618" height="869" extended-state="7" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2253886" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23316061" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946353" visible="true" weight="0.5064194" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946353" weight="0.3837375" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39942938" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -495,28 +521,28 @@
       <window_info anchor="right" id="Coverage" order="5" side_tool="true" weight="0.32966322" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18401287" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22927462" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946353" visible="true" weight="0.40522134" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39954597" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946353" weight="0.5064194" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39942938" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32952926" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5005365" side_tool="true" weight="0.40522134" />
-      <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32952926" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32952926" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="Coverage" order="5" side_tool="true" weight="0.3299356" />
+      <window_info anchor="right" id="Coverage" order="5" side_tool="true" weight="0.32966322" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -536,54 +562,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/day1-20181220/闭包.py" />
-    <entry file="file://$PROJECT_DIR$/day1-20181220/装饰器.py" />
-    <entry file="file://$PROJECT_DIR$/Mon1-20181220/yield.py" />
-    <entry file="file://$PROJECT_DIR$/Mon1-20181220/携程yield.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-296">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mon1-20181220/yield复杂使用查找文件.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mon1-20181220/de_encode.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="37">
-          <caret line="1" column="65" selection-start-line="1" selection-start-column="65" selection-end-line="1" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mon1-20181220/pkg01/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mon1-20181220/二分查找.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="28" column="10" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mon1-20181220/lambda.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mon1-20181220/time.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="4" column="11" lean-forward="true" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Mon2-20190101/setitem.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="542">
@@ -690,16 +668,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Mon2-20190101/正则文件替换/版本号自动加1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-372">
-          <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
-          <folding>
-            <element signature="e#68#77#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/Python36/Lib/json/decoder.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="13172">
@@ -728,31 +696,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Mon2-20190101/socket/1.0简单通信/s_server.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mon2-20190101/socket/1.4并发访问/s_server.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="36" column="12" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
-          <folding>
-            <element signature="e#43#60#0" expanded="true" />
-            <marker date="1547387696186" expanded="true" signature="219:1887" ph="..." />
-            <marker date="1547387696186" expanded="true" signature="241:259" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mon2-20190101/socket/1.4并发访问/s_client.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Mon2-20190101/socket/1.4并发访问/s_client1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="148">
@@ -762,8 +705,155 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Mon2-20190101/socket/1.4并发访问/s_client2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="8" column="11" lean-forward="true" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+        <state relative-caret-position="259">
+          <caret line="9" column="38" lean-forward="true" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mon2-20190101/socket/1.4并发访问/s_client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mon2-20190101/socket/1.4并发访问/s_server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="32" column="19" lean-forward="true" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mon2-20190101/socket/1.0简单通信/s_client3.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mon2-20190101/socket/UDP简单通信/udp_server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="3" column="41" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mon2-20190101/socket/UDP简单通信/upd_client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="10" column="35" lean-forward="true" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mon2-20190101/socket/UDP并发/upd_client1.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mon2-20190101/socket/UDP并发/upd_client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mon2-20190101/多进程">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mon2-20190101/socket/UDP并发/udp_server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python36/Lib/multiprocessing/process.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="92" selection-start-line="92" selection-end-line="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mon2-20190101/正则文件替换/版本号自动加1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2417">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mon2-20190101/socket/1.4并发访问（socketserver）/s_client.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mon2-20190101/socket/1.0简单通信/s_server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mon2-20190101/多进程/调用进程的方法二.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-290">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mon2-20190101/多进程/调用进程的方法一.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+          <folding>
+            <marker date="1547993717170" expanded="true" signature="360:365" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mon2-20190101/多进程/进程的其他方法.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#98#120#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mon2-20190101/多进程/共享数据.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+          <folding>
+            <marker date="1548081248778" expanded="true" signature="99:108" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mon2-20190101/多进程/队列.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mon2-20190101/多进程/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mon2-20190101/socket/1.41并发访问（自定义多进程）/s_client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mon2-20190101/socket/1.41并发访问（自定义多进程）/s_server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+            <marker date="1547992056404" expanded="true" signature="237:385" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
